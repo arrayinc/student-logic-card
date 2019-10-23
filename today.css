@@ -1,10 +1,10 @@
-.card {
+.navbar {
     display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 10px lightgray;
-    border-radius: 6px;
+    box-shadow: 0 10px 7px -7px lightgray;
+    background-color: black;
 }
 
+<<<<<<< HEAD
 .card .card-header {
     border-bottom: 1px solid lightgray;
     display: flex;
@@ -15,30 +15,30 @@
 .card .card-header .card-header-title {
     font-size: 32px;
     text-transform: uppercase;
+=======
+.navbar > .nav-left,
+.navbar > .nav-right {
+    padding: 10px 20px;
+>>>>>>> master
 }
 
-.card .card-content {
+.navbar > .nav-left {
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.card .card-footer {
+.navbar > .nav-right {
+    margin-left: auto;
     display: flex;
-    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.card .card-footer .button {
-    background: black;
+.navbar > .nav-left > .brand {
+    font-size: 24px;
+    font-weight: bold;
     color: white;
     text-transform: uppercase;
-    border-radius: 6px;
-    border: 1px solid black;
-    padding: 14px 17px;
-    flex-grow: 1;
-    font-size: 20px;
-
 }
-
